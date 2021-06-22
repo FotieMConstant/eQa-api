@@ -1,0 +1,37 @@
+{
+  "name": "eqa-api",
+  "version": "0.0.1",
+  "description": "An easy question answer API built to facilitate integration of questions in your app.",
+  "main": "server.js",
+  "scripts": {
+    "serve": "node_modules/.bin/nodemon server.js --exec",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FotieMConstant/eQa-api.git"
+  },
+  "keywords": [
+    "question",
+    "mcq",
+    "api",
+    "api",
+    "nodejs"
+  ],
+  "author": "fotiecodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FotieMConstant/eQa-api/issues"
+  },
+  "homepage": "https://github.com/FotieMConstant/eQa-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  }
+}
