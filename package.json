@@ -4,7 +4,6 @@
   "description": "An easy question answer API built to facilitate integration of questions in your app.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "serve": "node_modules/.bin/nodemon server.js --exec",
     "test": "mocha"
   },
